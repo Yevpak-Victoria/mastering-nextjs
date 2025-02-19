@@ -1,10 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "NEXT_IGNORE_ESLINT_ERRORS=1 next build",
+    "build": "next build",
     "dev": "next dev --turbopack",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
